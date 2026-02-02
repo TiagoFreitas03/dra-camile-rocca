@@ -21,11 +21,64 @@ nav img {
 }
 
 nav ul {
+	text-transform: uppercase;
 	display: flex;
 	gap: 50px;
 	list-style-type: none;
 	margin: auto;
 	font-family: "Cinzel";
-	font-size: 18px;
+	font-size: 20px;
 	color: var(--white);
+}
+
+#home-container {
+	height: 89.49vh;
+	width: 100vw;
+	max-width: 100%;
+	display: flex;
+	background: url('./images/home-image.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#empty {
+	width: 36%;
+}
+
+#home {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+#home-text {
+	text-align: center;
+}
+
+#home h1 {
+	font-family: "Cinzel Decorative";
+	font-weight: 100;
+	font-size: 70px;
+	color: var(--dark-red);
+}
+
+#home span {
+	font-family: "Inter";
+	font-size: 40px;
+	font-weight: 300;
+	color: var(--dark-red);
+}
+
+#home button {
+	font-family: "Cinzel";
+	font-size: 25px;
+	color: var(--white);
+	background-color: var(--dark-red);
+	padding: 18px 45px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
 }
