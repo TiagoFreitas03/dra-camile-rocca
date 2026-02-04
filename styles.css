@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 nav {
 	background-color: var(--dark-red);
 	opacity: 90%;
@@ -60,6 +64,10 @@ nav ul {
 
 .nav-link:hover::after, .nav-link:hover::before {
   transform: scaleX(1);
+}
+
+.section {
+	scroll-margin-top: 78px;
 }
 
 #home-container {
