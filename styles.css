@@ -90,7 +90,7 @@ nav ul {
 	text-align: center;
 }
 
-#home h1 {
+.my-name {
 	font-family: "Cinzel Decorative";
 	font-weight: 100;
 	font-size: 70px;
@@ -114,4 +114,38 @@ nav ul {
 	border: none;
 	cursor: pointer;
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#about-me-container {
+	background: url('./images/about-me-background.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+}
+
+#about-me-text {
+	max-width: 60%;
+	padding: 30px 60px;
+}
+
+#about-me-text h1 {
+	text-align: center;
+	margin-bottom: 52px;
+}
+
+#about-me-text p {
+	font-size: 20px;
+	font-family: "Inter";
+	line-height: 55px;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#about-me-container img {
+	display: flex;
+	margin: auto;
 }
