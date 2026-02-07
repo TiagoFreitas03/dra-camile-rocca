@@ -1,9 +1,5 @@
-import { Button } from '@/components/ui/button'
+import { Navbar } from './components/navbar'
 
 export function App() {
-	return (
-		<div className="flex min-h-svh flex-col items-center justify-center bg-neutral-950">
-			<Button>Click me</Button>
-		</div>
-	)
+	return <Navbar />
 }
