@@ -2,7 +2,7 @@ import homeBackground from '../images/home-background.png'
 
 export function Home() {
 	return (
-		<div className="flex w-screen h-screen max-w-480 max-h-270 overflow-hidden items-center justify-center m-auto">
+		<div className="flex w-screen h-screen max-w-full max-h-270 overflow-hidden items-center justify-center m-auto">
 			<img src={homeBackground} className="m-auto" />
 
 			<div className="absolute flex justify-around w-full">
