@@ -3,7 +3,10 @@ import draCamile from '../images/dra-camile.png'
 
 export function AboutMe() {
 	return (
-		<div className="flex w-screen h-screen max-w-full max-h-270 items-center justify-center m-auto">
+		<div
+			className="flex w-screen h-screen max-w-full max-h-270 items-center justify-center m-auto"
+			id="about-me"
+		>
 			<img src={aboutMeBackground} className="m-auto" />
 
 			<div className="absolute flex justify-around gap-20 w-full">
