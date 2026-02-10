@@ -1,14 +1,11 @@
-import aboutMeBackground from '../images/about-me-background.png'
 import draCamile from '../images/dra-camile.png'
 
 export function AboutMe() {
 	return (
 		<div
-			className="flex w-screen h-screen max-w-full max-h-270 items-center justify-center m-auto"
+			className="flex h-screen items-center bg-[url(/about-me-bg.png)] bg-no-repeat bg-center"
 			id="about-me"
 		>
-			<img src={aboutMeBackground} className="m-auto" />
-
 			<div className="absolute flex justify-around gap-20 w-full">
 				<div className="flex flex-col max-w-[45%]">
 					<h1 className="font-cinzel-decorative font-extralight text-7xl text-dark-red text-center mb-24">
@@ -38,7 +35,7 @@ export function AboutMe() {
 					</div>
 				</div>
 
-				<img src={draCamile} />
+				<img src={draCamile} className="w-120" />
 			</div>
 		</div>
 	)
