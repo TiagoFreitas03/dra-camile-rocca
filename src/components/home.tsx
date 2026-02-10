@@ -1,14 +1,10 @@
-import homeBackground from '../images/home-background.png'
-
 export function Home() {
 	return (
 		<div
-			className="flex w-screen h-screen max-w-full max-h-270 overflow-hidden items-center justify-center m-auto"
+			className="flex h-screen items-center bg-[url(/home-bg.png)] bg-no-repeat bg-center"
 			id="home"
 		>
-			<img src={homeBackground} className="m-auto" />
-
-			<div className="absolute flex justify-around w-full">
+			<div className="flex justify-around w-full">
 				<span></span>
 
 				<div className="flex flex-col gap-24 justify-center items-center">
