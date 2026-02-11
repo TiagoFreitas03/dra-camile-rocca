@@ -1,16 +1,15 @@
+import { Section } from './section'
 import draCamile from '../images/dra-camile.png'
+import { MyName } from './my-name'
 
 export function AboutMe() {
 	return (
-		<div
-			className="flex h-screen items-center bg-[url(/about-me-bg.png)] bg-no-repeat bg-center"
-			id="about-me"
-		>
-			<div className="absolute flex justify-around gap-20 w-full">
+		<Section backgroundImageUrl="/about-me-bg.png" id="about-me">
+			<div className="flex justify-around gap-20">
 				<div className="flex flex-col max-w-[45%]">
-					<h1 className="font-cinzel-decorative font-extralight text-7xl text-dark-red text-center mb-24">
-						DRa. Camile Rocca
-					</h1>
+					<span className="text-center mb-24">
+						<MyName />
+					</span>
 
 					<div className="text-2xl font-inter flex flex-col gap-12 leading-12">
 						<p>
@@ -35,8 +34,8 @@ export function AboutMe() {
 					</div>
 				</div>
 
-				<img src={draCamile} className="w-120" />
+				<img src={draCamile} className="max-w-120 h-169" />
 			</div>
-		</div>
+		</Section>
 	)
 }

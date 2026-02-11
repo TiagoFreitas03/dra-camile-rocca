@@ -1,17 +1,15 @@
+import { MyName } from './my-name'
+import { Section } from './section'
+
 export function Home() {
 	return (
-		<div
-			className="flex h-screen items-center bg-[url(/home-bg.png)] bg-no-repeat bg-center"
-			id="home"
-		>
+		<Section backgroundImageUrl="/home-bg.png" id="home">
 			<div className="flex justify-around w-full">
 				<span></span>
 
 				<div className="flex flex-col gap-24 justify-center items-center">
 					<div className="text-center">
-						<h1 className="font-cinzel-decorative font-extralight text-7xl text-dark-red">
-							DRa. Camile Rocca
-						</h1>
+						<MyName />
 
 						<span className="font-inter text-4xl font-light text-dark-red block mt-4">
 							Cirurgiã-dentista
@@ -26,6 +24,6 @@ export function Home() {
 					</button>
 				</div>
 			</div>
-		</div>
+		</Section>
 	)
 }
