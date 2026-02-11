@@ -3,7 +3,7 @@ import { Section } from './section'
 
 export function Home() {
 	return (
-		<Section backgroundImageUrl="/home-bg.png" id="home">
+		<Section backgroundImageClass="bg-[url(/home-bg.png)]" id="home">
 			<div className="flex justify-around w-full">
 				<span></span>
 

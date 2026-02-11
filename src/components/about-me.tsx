@@ -4,7 +4,7 @@ import { MyName } from './my-name'
 
 export function AboutMe() {
 	return (
-		<Section backgroundImageUrl="/about-me-bg.png" id="about-me">
+		<Section backgroundImageClass="bg-[url(/about-me-bg.png)]" id="about-me">
 			<div className="flex justify-around gap-20">
 				<div className="flex flex-col max-w-[45%]">
 					<span className="text-center mb-24">
