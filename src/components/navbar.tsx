@@ -9,7 +9,7 @@ export function Navbar() {
 			<ul className="uppercase flex gap-12 list-none m-auto text-xl font-cinzel">
 				<NavLink href="#home">home</NavLink>
 				<NavLink href="#about-me">sobre mim</NavLink>
-				<NavLink>dicas</NavLink>
+				<NavLink href="#tips">dicas</NavLink>
 				<NavLink>serviço</NavLink>
 				<NavLink>contato</NavLink>
 				<NavLink>endereço</NavLink>
