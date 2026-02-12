@@ -6,7 +6,7 @@ export function Navbar() {
 		<nav className="bg-dark-red opacity-90 flex fixed top-0 w-full">
 			<img src={headerLogo} className="w-40" />
 
-			<ul className="uppercase flex gap-12 list-none m-auto text-xl font-cinzel">
+			<ul className="uppercase flex gap-12 list-none m-auto font-cinzel">
 				<NavLink href="#home">home</NavLink>
 				<NavLink href="#about-me">sobre mim</NavLink>
 				<NavLink href="#tips">dicas</NavLink>
