@@ -10,7 +10,7 @@ export function Navbar() {
 				<NavLink href="#home">home</NavLink>
 				<NavLink href="#about-me">sobre mim</NavLink>
 				<NavLink href="#tips">dicas</NavLink>
-				<NavLink>serviço</NavLink>
+				<NavLink href="#services">serviços</NavLink>
 				<NavLink href="#contact">contato</NavLink>
 				<NavLink>endereço</NavLink>
 			</ul>

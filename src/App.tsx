@@ -3,6 +3,7 @@ import { Home } from './components/home'
 import { AboutMe } from './components/about-me'
 import { Tips } from './components/tips'
 import { Contact } from './components/contact'
+import { Services } from './components/services'
 
 export function App() {
 	return (
@@ -12,6 +13,7 @@ export function App() {
 			<Home />
 			<AboutMe />
 			<Tips />
+			<Services />
 			<Contact />
 		</div>
 	)
