@@ -1,40 +1,46 @@
 import { Section } from './section'
+import { Bold } from './bold'
+import textDecoration from '../images/text-decoration.png'
 import draCamile from '../images/dra-camile.png'
 import { MyName } from './my-name'
 
 export function AboutMe() {
 	return (
 		<Section backgroundImageClass="bg-[url(/about-me-bg.png)]" id="about-me">
-			<div className="flex justify-around gap-20">
-				<div className="flex flex-col max-w-[45%]">
-					<span className="text-center mb-24">
-						<MyName />
-					</span>
+			<div className="flex px-20">
+				<div className="w-[65%] flex items-center">
+					<div className="flex flex-col gap-4">
+						<span className="text-center">
+							<MyName />
+						</span>
 
-					<div className="text-2xl font-inter flex flex-col gap-12 leading-12">
-						<p>
-							A <span className="font-bold">Dra. Camile Rocca</span> é cirurgiã-dentista formada em
-							Odontologia pelo Centro Universitário Braz Cubas, com sólida atuação em clínica geral
-							e <span className="font-bold">foco</span> em um
-							<span className="font-bold"> atendimento humanizado, ético e individualizado</span>.
-						</p>
+						<img src={textDecoration} className="w-72 m-auto" />
 
-						<p>
-							Durante sua formação acadêmica, adquiriu experiência clínica por meio de estágio
-							supervisionado, atuando no atendimento de pacientes adultos e pediátricos, sempre
-							prezando pela <span className="font-bold">saúde bucal</span> e
-							<span className="font-bold"> bem-estar do paciente</span>.
-						</p>
+						<div className="text-2xl font-inter flex flex-col gap-12 leading-loose">
+							<p>
+								A <Bold>Dra. Camile Rocca</Bold> é cirurgiã-dentista formada em Odontologia pelo
+								Centro Universitário Braz Cubas, com sólida atuação em clínica geral e{' '}
+								<Bold>foco</Bold> em um{' '}
+								<Bold> atendimento humanizado, ético e individualizado</Bold>.
+							</p>
 
-						<p>
-							Sua prática é pautada na <span className="font-bold">atualização constante</span> e no
-							<span className="font-bold"> cuidado</span> às necessidades de cada
-							<span className="font-bold"> sorriso</span>.
-						</p>
+							<p>
+								Durante sua formação acadêmica, adquiriu experiência clínica por meio de estágio
+								supervisionado, atuando no atendimento de pacientes adultos e pediátricos, sempre
+								prezando pela <Bold>saúde bucal</Bold> e <Bold> bem-estar do paciente</Bold>.
+							</p>
+
+							<p>
+								Sua prática é pautada na <Bold>atualização constante</Bold> e no{' '}
+								<Bold> cuidado</Bold> às necessidades de cada <Bold> sorriso</Bold>.
+							</p>
+						</div>
 					</div>
 				</div>
 
-				<img src={draCamile} className="max-w-120 h-169" />
+				<div className="flex w-[35%] justify-center">
+					<img src={draCamile} className="max-w-[80%]" />
+				</div>
 			</div>
 		</Section>
 	)
