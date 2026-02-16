@@ -6,6 +6,7 @@ import appointments from '../images/appointments.png'
 import tongue from '../images/tongue.png'
 import toothbrush from '../images/toothbrush.png'
 import toothpaste from '../images/toothpaste.png'
+import { Bold } from '@/components/bold'
 
 interface Tip {
 	title: string
@@ -19,11 +20,8 @@ export const tips: Tip[] = [
 		image: brushing,
 		description: (
 			<span>
-				Use escovas de cerdas macias, com movimentos curtos e suaves, inclinando a escova a 45 graus
-				em relação à gengiva.{' '}
-				<span className="font-bold">
-					Utilize escovas de cabeça pequena com cerdas macias e retas.
-				</span>
+				Escove os dentes com movimentos <Bold>curtos</Bold> e <Bold>suaves</Bold>, inclinando a
+				escova a 45 graus em relação à gengiva.
 			</span>
 		),
 	},
@@ -64,9 +62,8 @@ export const tips: Tip[] = [
 		image: toothbrush,
 		description: (
 			<span>
-				<span className="font-bold">Substitua</span> a escova a{' '}
-				<span className="font-bold">cada 3 meses</span>, ou antes, se as cerdas estiverem deformadas
-				ou após um resfriado/infecção.
+				<Bold>Substitua</Bold> a escova a <Bold>cada 3 meses</Bold>, ou antes, se as cerdas
+				estiverem deformadas. Use escovas de cerdas macias, retas e com cabeça pequena.
 			</span>
 		),
 	},

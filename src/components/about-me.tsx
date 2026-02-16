@@ -16,7 +16,7 @@ export function AboutMe() {
 
 						<img src={textDecoration} className="w-72 m-auto" />
 
-						<div className="text-2xl font-inter flex flex-col gap-12 leading-loose">
+						<div className="2xl:text-2xl font-inter flex flex-col gap-12 leading-loose">
 							<p>
 								A <Bold>Dra. Camile Rocca</Bold> é cirurgiã-dentista formada em Odontologia pelo
 								Centro Universitário Braz Cubas, com sólida atuação em clínica geral e{' '}
@@ -38,8 +38,8 @@ export function AboutMe() {
 					</div>
 				</div>
 
-				<div className="flex w-[35%] justify-center">
-					<img src={draCamile} className="max-w-[80%]" />
+				<div className="flex justify-center items-center w-[35%]">
+					<img src={draCamile} className="w-[70%] 2xl:w-[80%] h-auto" />
 				</div>
 			</div>
 		</Section>
