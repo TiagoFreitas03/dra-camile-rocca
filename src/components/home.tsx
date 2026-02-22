@@ -1,3 +1,4 @@
+import { HoverBackgroundEffect } from './hover-background-effect'
 import { MyName } from './my-name'
 import { Section } from './section'
 import { WhatsAppLink } from './whatsapp-link'
@@ -5,7 +6,7 @@ import { WhatsAppLink } from './whatsapp-link'
 export function Home() {
 	return (
 		<Section backgroundImageClass="bg-[url(/home-bg.png)]" id="home">
-			<div className="flex justify-around w-full">
+			<div className="flex justify-around w-full transition-opacity duration-500 opacity-100">
 				<span></span>
 
 				<div className="flex flex-col gap-24 justify-center items-center">
@@ -18,12 +19,9 @@ export function Home() {
 					</div>
 
 					<WhatsAppLink>
-						<button
-							type="button"
-							className="uppercase font-cinzel text-2xl text-white bg-dark-red py-4 px-11 rounded-2xl border-0 cursor-pointer shadow-2xl"
-						>
-							agende sua consulta
-						</button>
+						<HoverBackgroundEffect className="font-cinzel text-2xl py-4 px-11">
+							AGENDE SUA CONSULTA
+						</HoverBackgroundEffect>
 					</WhatsAppLink>
 				</div>
 			</div>

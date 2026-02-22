@@ -3,6 +3,7 @@ import { Section } from './section'
 import { CalendarDays } from 'lucide-react'
 import { InstagramLink } from './instagram-link'
 import { WhatsAppLink } from './whatsapp-link'
+import { HoverBackgroundEffect } from './hover-background-effect'
 
 export function Contact() {
 	return (
@@ -54,9 +55,9 @@ export function Contact() {
 
 					<div className="flex justify-center 2xl:my-12">
 						<WhatsAppLink>
-							<button className="font-cinzel text-3xl 2xl:text-5xl bg-dark-red inline-block px-18 2xl:px-30 py-4 2xl:py-8 rounded-2xl text-white cursor-pointer">
+							<HoverBackgroundEffect className="font-cinzel text-3xl 2xl:text-5xl px-18 2xl:px-30 py-4 2xl:py-8">
 								entre em contato
-							</button>
+							</HoverBackgroundEffect>
 						</WhatsAppLink>
 					</div>
 				</div>
