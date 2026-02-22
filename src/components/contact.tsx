@@ -1,6 +1,7 @@
 import { FaInstagram as Instagram, FaWhatsapp as WhatsApp } from 'react-icons/fa'
 import { Section } from './section'
 import { CalendarDays } from 'lucide-react'
+import { InstagramLink } from './instagram-link'
 
 export function Contact() {
 	return (
@@ -36,12 +37,14 @@ export function Contact() {
 
 						<div className="inline-block h-20 w-0.5 bg-black my-auto"></div>
 
-						<div className="px-4 text-center w-[25%] flex flex-col items-center gap-8 py-16">
-							<Instagram size={60} />
-							<span className="font-inter text-3xl text-dark-red font-bold leading-10">
-								@dracamilerocca
-							</span>
-						</div>
+						<InstagramLink className="w-[25%]">
+							<div className="px-4 text-center  flex flex-col items-center gap-8 py-16">
+								<Instagram size={60} />
+								<span className="font-inter text-3xl text-dark-red font-bold leading-10">
+									@dra.camilerocca
+								</span>
+							</div>
+						</InstagramLink>
 					</div>
 
 					<div className="flex justify-center 2xl:my-12">

@@ -1,5 +1,6 @@
 import { MyName } from './my-name'
 import { Section } from './section'
+import { WhatsAppLink } from './whatsapp-link'
 
 export function Home() {
 	return (
@@ -16,12 +17,14 @@ export function Home() {
 						</span>
 					</div>
 
-					<button
-						type="button"
-						className="uppercase font-cinzel text-2xl text-white bg-dark-red py-4 px-11 rounded-2xl border-0 cursor-pointer shadow-2xl"
-					>
-						agende sua consulta
-					</button>
+					<WhatsAppLink>
+						<button
+							type="button"
+							className="uppercase font-cinzel text-2xl text-white bg-dark-red py-4 px-11 rounded-2xl border-0 cursor-pointer shadow-2xl"
+						>
+							agende sua consulta
+						</button>
+					</WhatsAppLink>
 				</div>
 			</div>
 		</Section>

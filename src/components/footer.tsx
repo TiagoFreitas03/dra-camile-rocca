@@ -1,6 +1,8 @@
 import { FooterListItem } from './footer-list-item'
 import { FaWhatsapp as Whatsapp } from 'react-icons/fa'
 import { FaInstagram as Instagram } from 'react-icons/fa'
+import { InstagramLink } from './instagram-link'
+import { WhatsAppLink } from './whatsapp-link'
 
 export function Footer() {
 	return (
@@ -16,8 +18,13 @@ export function Footer() {
 			</div>
 
 			<div className="w-full flex justify-end gap-2 px-2">
-				<Whatsapp size={40} />
-				<Instagram size={40} />
+				<WhatsAppLink>
+					<Whatsapp size={40} />
+				</WhatsAppLink>
+
+				<InstagramLink>
+					<Instagram size={40} />
+				</InstagramLink>
 			</div>
 		</footer>
 	)
