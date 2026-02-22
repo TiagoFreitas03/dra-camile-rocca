@@ -7,7 +7,7 @@ interface FooterListItemProps {
 export function FooterListItem({ text }: FooterListItemProps) {
 	return (
 		<span className="flex items-center gap-6 text-white text-3xl font-inter">
-			<Check size={44} color="black" /> {text}
+			<Check size={44} color="white" /> {text}
 		</span>
 	)
 }
