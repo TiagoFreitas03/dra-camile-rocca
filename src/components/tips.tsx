@@ -20,7 +20,7 @@ export function Tips() {
 						<CarouselContent className="py-4 2xl:py-12 px-1">
 							{tips.map((tip) => (
 								<CarouselItem key={tip.title} className="basis-1/2 lg:basis-1/3">
-									<Card className="bg-white/50 shadow-xl">
+									<Card className="bg-white/50 shadow-xl transform transition duration-300 hover:-translate-y-4 2xl:hover:-translate-y-8">
 										<CardContent className="flex flex-col gap-4 items-center justify-center aspect-square h-full my-4 2xl:my-12">
 											<span className="font-cinzel text-3xl 2xl:text-5xl text-dark-red">
 												{tip.title}
