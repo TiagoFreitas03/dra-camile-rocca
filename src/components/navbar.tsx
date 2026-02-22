@@ -12,7 +12,6 @@ export function Navbar() {
 				<NavLink href="#tips">dicas</NavLink>
 				<NavLink href="#services">serviços</NavLink>
 				<NavLink href="#contact">contato</NavLink>
-				<NavLink>endereço</NavLink>
 			</ul>
 		</nav>
 	)
