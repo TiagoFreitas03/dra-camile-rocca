@@ -2,6 +2,7 @@ import { FaInstagram as Instagram, FaWhatsapp as WhatsApp } from 'react-icons/fa
 import { Section } from './section'
 import { CalendarDays } from 'lucide-react'
 import { InstagramLink } from './instagram-link'
+import { WhatsAppLink } from './whatsapp-link'
 
 export function Contact() {
 	return (
@@ -17,23 +18,27 @@ export function Contact() {
 					</span>
 
 					<div className="flex justify-center w-full">
-						<div className="px-4 text-center w-[25%] flex flex-col items-center gap-4 py-16">
-							<WhatsApp size={60} />
+						<WhatsAppLink className="w-[25%]">
+							<div className="px-4 text-center flex flex-col items-center gap-4 py-16">
+								<WhatsApp size={60} />
 
-							<span className="font-inter text-3xl text-dark-red font-bold leading-10">
-								Converse pelo <br /> WhatsApp
-							</span>
-						</div>
+								<span className="font-inter text-3xl text-dark-red font-bold leading-10">
+									Converse pelo <br /> WhatsApp
+								</span>
+							</div>
+						</WhatsAppLink>
 
 						<div className="inline-block h-20 w-0.5 bg-black my-auto"></div>
 
-						<div className="px-4 text-center w-[25%] flex flex-col items-center gap-4 py-16">
-							<CalendarDays size={60} />
+						<WhatsAppLink className="w-[25%]">
+							<div className="px-4 text-center flex flex-col items-center gap-4 py-16">
+								<CalendarDays size={60} />
 
-							<span className="font-inter text-3xl text-dark-red font-bold leading-10">
-								Agende sua <br /> consulta
-							</span>
-						</div>
+								<span className="font-inter text-3xl text-dark-red font-bold leading-10">
+									Agende sua <br /> consulta
+								</span>
+							</div>
+						</WhatsAppLink>
 
 						<div className="inline-block h-20 w-0.5 bg-black my-auto"></div>
 
@@ -48,9 +53,11 @@ export function Contact() {
 					</div>
 
 					<div className="flex justify-center 2xl:my-12">
-						<button className="font-cinzel text-3xl 2xl:text-5xl bg-dark-red inline-block px-18 2xl:px-30 py-4 2xl:py-8 rounded-2xl text-white cursor-pointer">
-							entre em contato
-						</button>
+						<WhatsAppLink>
+							<button className="font-cinzel text-3xl 2xl:text-5xl bg-dark-red inline-block px-18 2xl:px-30 py-4 2xl:py-8 rounded-2xl text-white cursor-pointer">
+								entre em contato
+							</button>
+						</WhatsAppLink>
 					</div>
 				</div>
 			</div>
