@@ -19,11 +19,11 @@ export function Footer() {
 
 			<div className="w-full flex justify-end gap-2 px-2">
 				<WhatsAppLink>
-					<Whatsapp size={40} />
+					<Whatsapp size={40} color="white" />
 				</WhatsAppLink>
 
 				<InstagramLink>
-					<Instagram size={40} />
+					<Instagram size={40} color="white" />
 				</InstagramLink>
 			</div>
 		</footer>
