@@ -6,7 +6,7 @@ interface WhatsAppLinkProps {
 }
 
 export function WhatsAppLink({ children, className }: WhatsAppLinkProps) {
-	const phoneNumber = '5512991309804'
+	const phoneNumber = '5512983003530'
 	const message = 'Olá! Vim do site e gostaria de mais informações.'
 
 	return (
