@@ -9,7 +9,7 @@ interface SectionProps {
 export function Section({ backgroundImageClass, id, children }: SectionProps) {
 	return (
 		<div
-			className={`w-full max-w-480 h-screen max-h-245 overflow-hidden m-auto flex items-center bg-no-repeat bg-cover ${backgroundImageClass}`}
+			className={`w-full max-w-480 min-h-screen max-h-245 overflow-hidden m-auto flex items-center bg-no-repeat bg-cover bg-fixed bg-center ${backgroundImageClass}`}
 			id={id}
 		>
 			{children}
