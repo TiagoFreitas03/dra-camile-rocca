@@ -6,7 +6,7 @@ import { WhatsAppLink } from './whatsapp-link'
 export function Footer() {
 	return (
 		<footer className="flex flex-col items-center py-4">
-			<div className="bg-no-repeat bg-cover bg-[url(/footer-bg.png)] w-[90%] text-white text-5xl font-cinzel py-12 px-8 rounded-4xl leading-snug">
+			<div className="bg-no-repeat bg-cover bg-[url(/footer-bg.png)] w-[90%] text-white text-2xl 2xl:text-5xl font-cinzel py-12 px-8 rounded-4xl leading-snug">
 				<span className="block">
 					"SORRISOS <span className="font-croissant">sinceros</span>
 				</span>
