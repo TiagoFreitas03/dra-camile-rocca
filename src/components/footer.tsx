@@ -1,4 +1,3 @@
-import { FooterListItem } from './footer-list-item'
 import { FaWhatsapp as Whatsapp } from 'react-icons/fa'
 import { FaInstagram as Instagram } from 'react-icons/fa'
 import { InstagramLink } from './instagram-link'
@@ -6,25 +5,32 @@ import { WhatsAppLink } from './whatsapp-link'
 
 export function Footer() {
 	return (
-		<footer className="bg-no-repeat bg-cover bg-[url(/footer-bg.png)] pt-6 pb-2 flex flex-col items-center">
-			<h1 className="font-cinzel text-6xl text-white">transforme seu sorriso</h1>
-
-			<div className="inline-block w-150 h-0.5 bg-white mx-auto my-2" />
-
-			<div className="my-2 flex flex-col gap-4">
-				<FooterListItem text="Agende uma consulta" />
-				<FooterListItem text="Receba uma avaliação" />
-				<FooterListItem text="Tenha uma nova experiência" />
+		<footer className="flex flex-col items-center py-4">
+			<div className="bg-no-repeat bg-cover bg-[url(/footer-bg.png)] w-[90%] text-white text-5xl font-cinzel py-12 px-8 rounded-4xl leading-snug">
+				<span className="block">
+					"SORRISOS <span className="font-croissant">sinceros</span>
+				</span>
+				<span className="block">
+					COMEÇAM COM UM CUIDADO <span className="font-croissant">verdadeiro</span>"
+				</span>
 			</div>
 
-			<div className="w-full flex justify-end gap-2 px-2">
-				<WhatsAppLink>
-					<Whatsapp size={40} color="white" />
-				</WhatsAppLink>
+			<div className="w-full flex justify-between px-6 mt-4">
+				<div />
 
-				<InstagramLink>
-					<Instagram size={40} color="white" />
-				</InstagramLink>
+				<div className="font-inter text-2xl border-t-3 border-dark-red text-dark-red text-center font-semibold w-[80%] pt-4">
+					Camile Rocca - CROSP: 177173 &copy; | Direitos Reservados
+				</div>
+
+				<div className="flex items-end">
+					<InstagramLink>
+						<Instagram size={40} color="black" />
+					</InstagramLink>
+
+					<WhatsAppLink>
+						<Whatsapp size={40} color="black" />
+					</WhatsAppLink>
+				</div>
 			</div>
 		</footer>
 	)
