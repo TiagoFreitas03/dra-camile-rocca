@@ -23,7 +23,7 @@ export function Contact() {
 							<div className="px-4 text-center flex flex-col items-center gap-4 py-16">
 								<WhatsApp size={60} />
 
-								<span className="font-inter text-3xl text-dark-red font-bold leading-10">
+								<span className="font-inter text-xl 2xl:text-3xl text-dark-red font-bold 2xl:leading-10">
 									Converse pelo <br /> WhatsApp
 								</span>
 							</div>
@@ -35,7 +35,7 @@ export function Contact() {
 							<div className="px-4 text-center flex flex-col items-center gap-4 py-16">
 								<CalendarDays size={60} />
 
-								<span className="font-inter text-3xl text-dark-red font-bold leading-10">
+								<span className="font-inter text-xl 2xl:text-3xl text-dark-red font-bold 2xl:leading-10">
 									Agende sua <br /> consulta
 								</span>
 							</div>
@@ -44,9 +44,9 @@ export function Contact() {
 						<div className="inline-block h-20 w-0.5 bg-black my-auto"></div>
 
 						<InstagramLink className="w-[25%]">
-							<div className="px-4 text-center  flex flex-col items-center gap-8 py-16">
+							<div className="px-4 text-center flex flex-col items-center gap-8 py-16">
 								<Instagram size={60} />
-								<span className="font-inter text-3xl text-dark-red font-bold leading-10">
+								<span className="font-inter text-xl 2xl:text-3xl text-dark-red font-bold 2xl:leading-10">
 									@dra.camilerocca
 								</span>
 							</div>
