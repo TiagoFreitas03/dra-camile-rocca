@@ -8,7 +8,7 @@ export function Navbar() {
 				<img src={headerLogo} className="w-30 2xl:w-40 h-auto" />
 			</div>
 
-			<ul className="uppercase flex gap-12 list-none m-auto font-cinzel">
+			<ul className="hidden md:visible uppercase md:flex gap-12 list-none m-auto font-cinzel">
 				<NavLink href="#home">home</NavLink>
 				<NavLink href="#about-me">sobre mim</NavLink>
 				<NavLink href="#tips">dicas</NavLink>
