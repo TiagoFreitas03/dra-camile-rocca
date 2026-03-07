@@ -1,5 +1,4 @@
-import { FaWhatsapp as Whatsapp } from 'react-icons/fa'
-import { FaInstagram as Instagram } from 'react-icons/fa'
+import { FaWhatsapp as Whatsapp, FaInstagram as Instagram } from 'react-icons/fa6'
 import { InstagramLink } from './instagram-link'
 import { WhatsAppLink } from './whatsapp-link'
 

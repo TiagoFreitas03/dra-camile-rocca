@@ -1,4 +1,4 @@
-import { FaInstagram as Instagram, FaWhatsapp as WhatsApp } from 'react-icons/fa'
+import { FaInstagram as Instagram, FaWhatsapp as WhatsApp } from 'react-icons/fa6'
 import { Section } from './section'
 import { CalendarDays } from 'lucide-react'
 import { InstagramLink } from './instagram-link'
