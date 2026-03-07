@@ -1,9 +1,9 @@
 import type { ReactNode } from 'react'
 
-import { Bold } from '@/components/bold'
-import tooth from '../images/tooth.png'
-import tool1 from '../images/tool.png'
-import tool2 from '../images/tool-2.png'
+import { Bold } from '@/components/utils/bold'
+import tooth from '@/images/tooth.png'
+import tool1 from '@/images/tool.png'
+import tool2 from '@/images/tool-2.png'
 
 interface Service {
 	title: string

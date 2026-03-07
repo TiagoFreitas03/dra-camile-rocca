@@ -1,9 +1,9 @@
 import { FaInstagram as Instagram, FaWhatsapp as WhatsApp } from 'react-icons/fa6'
-import { Section } from './section'
-import { CalendarDays } from 'lucide-react'
-import { InstagramLink } from './instagram-link'
-import { WhatsAppLink } from './whatsapp-link'
-import { HoverBackgroundEffect } from './hover-background-effect'
+import { LuCalendarDays as CalendarDays } from 'react-icons/lu'
+import { ContactButton } from './utils/contact-button'
+import { InstagramLink } from './utils/instagram-link'
+import { Section } from './utils/section'
+import { WhatsAppLink } from './utils/whatsapp-link'
 
 export function Contact() {
 	return (
@@ -55,9 +55,9 @@ export function Contact() {
 
 					<div className="flex justify-center 2xl:my-12">
 						<WhatsAppLink>
-							<HoverBackgroundEffect className="font-cinzel text-3xl 2xl:text-5xl px-18 2xl:px-30 py-4 2xl:py-8">
+							<ContactButton className="font-cinzel text-3xl 2xl:text-5xl px-18 2xl:px-30 py-4 2xl:py-8">
 								entre em contato
-							</HoverBackgroundEffect>
+							</ContactButton>
 						</WhatsAppLink>
 					</div>
 				</div>

@@ -1,7 +1,7 @@
 import { FaInstagram as Instagram, FaWhatsapp as WhatsApp } from 'react-icons/fa6'
 
-import { InstagramLink } from '@/components/instagram-link'
-import { WhatsAppLink } from '@/components/whatsapp-link'
+import { InstagramLink } from '@/components/utils/instagram-link'
+import { WhatsAppLink } from '@/components/utils/whatsapp-link'
 import { menuLinks } from '@/constants/menu-links'
 
 interface MobileMenuProps {

@@ -1,7 +1,7 @@
-import { HoverBackgroundEffect } from './hover-background-effect'
-import { MyName } from './my-name'
-import { Section } from './section'
-import { WhatsAppLink } from './whatsapp-link'
+import { ContactButton } from './utils/contact-button'
+import { DraCamileRocca } from './utils/dra-camile-rocca'
+import { Section } from './utils/section'
+import { WhatsAppLink } from './utils/whatsapp-link'
 
 export function Home() {
 	return (
@@ -11,17 +11,17 @@ export function Home() {
 
 				<div className="flex flex-col gap-24 justify-center items-center">
 					<div className="text-center">
-						<MyName />
+						<DraCamileRocca />
 
 						<span className="font-inter text-3xl md:text-4xl font-light text-dark-red block mt-4">
 							Cirurgiã-dentista
 						</span>
 					</div>
 
-					<WhatsAppLink className="hidden 2xl:block">
-						<HoverBackgroundEffect className="font-cinzel text-2xl py-4 px-11">
+					<WhatsAppLink className="hidden xl:block">
+						<ContactButton className="font-cinzel text-2xl py-4 px-11">
 							AGENDE SUA CONSULTA
-						</HoverBackgroundEffect>
+						</ContactButton>
 					</WhatsAppLink>
 				</div>
 			</div>

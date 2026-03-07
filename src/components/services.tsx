@@ -5,9 +5,9 @@ import {
 	CarouselNext,
 	CarouselPrevious,
 } from './ui/carousel'
-import { Section } from './section'
-import { services } from '@/constants/services-data'
 import { Card, CardContent } from './ui/card'
+import { Section } from './utils/section'
+import { services } from '@/constants/services-data'
 
 export function Services() {
 	return (

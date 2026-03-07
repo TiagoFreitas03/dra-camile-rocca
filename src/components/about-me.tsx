@@ -1,8 +1,8 @@
-import { Section } from './section'
-import { Bold } from './bold'
-import textDecoration from '../images/text-decoration.png'
-import draCamile from '../images/dra-camile.png'
-import { MyName } from './my-name'
+import { Section } from './utils/section'
+import { Bold } from './utils/bold'
+import { DraCamileRocca } from './utils/dra-camile-rocca'
+import textDecoration from '@/images/text-decoration.png'
+import draCamile from '@/images/dra-camile.png'
 
 export function AboutMe() {
 	return (
@@ -11,7 +11,7 @@ export function AboutMe() {
 				<div className="w-[65%] flex items-center">
 					<div className="flex flex-col gap-4">
 						<span className="text-center">
-							<MyName />
+							<DraCamileRocca />
 						</span>
 
 						<img src={textDecoration} className="w-72 m-auto" />

@@ -1,12 +1,12 @@
 import type { ReactNode } from 'react'
 
-import brushing from '../images/brushing.png'
-import floss from '../images/floss.png'
-import appointments from '../images/appointments.png'
-import tongue from '../images/tongue.png'
-import toothbrush from '../images/toothbrush.png'
-import toothpaste from '../images/toothpaste.png'
-import { Bold } from '@/components/bold'
+import { Bold } from '@/components/utils/bold'
+import brushing from '@/images/brushing.png'
+import floss from '@/images/floss.png'
+import appointments from '@/images/appointments.png'
+import tongue from '@/images/tongue.png'
+import toothbrush from '@/images/toothbrush.png'
+import toothpaste from '@/images/toothpaste.png'
 
 interface Tip {
 	title: string

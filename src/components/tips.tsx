@@ -6,8 +6,8 @@ import {
 	CarouselPrevious,
 } from '@/components/ui/carousel'
 import { Card, CardContent } from './ui/card'
-import { Section } from './section'
-import { tips } from '../constants/tips-data'
+import { Section } from './utils/section'
+import { tips } from '@/constants/tips-data'
 
 export function Tips() {
 	return (

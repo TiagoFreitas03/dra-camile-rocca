@@ -1,5 +1,5 @@
-import clsx from 'clsx'
 import { useRef, useState, useEffect, type RefObject, type ReactNode } from 'react'
+import clsx from 'clsx'
 
 function useElementOnScreen<T extends Element>(ref: RefObject<T | null>): boolean {
 	const [isIntersecting, setIsIntersecting] = useState<boolean>(false)
