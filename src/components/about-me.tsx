@@ -6,15 +6,19 @@ import draCamile from '@/images/dra-camile.png'
 
 export function AboutMe() {
 	return (
-		<Section backgroundImageClass="bg-[url(/about-me-bg.png)]" id="about-me">
-			<div className="flex px-20">
-				<div className="w-[65%] flex items-center">
+		<Section backgroundImageClass="md:bg-[url(/about-me-bg.png)]" id="about-me">
+			<div className="md:flex pt-20 px-3 md:pt-0 md:px-20">
+				<div className="md:w-[65%] flex items-center">
 					<div className="flex flex-col gap-4">
 						<span className="text-center">
 							<DraCamileRocca />
 						</span>
 
-						<img src={textDecoration} className="w-72 m-auto" />
+						<div className="flex justify-center items-center md:hidden mb-6">
+							<img src={draCamile} className="w-[80%] max-w-sm h-auto shadow-2xl rounded-4xl" />
+						</div>
+
+						<img src={textDecoration} className="hidden lg:block w-72 m-auto" />
 
 						<div className="2xl:text-2xl font-inter flex flex-col gap-12 leading-loose">
 							<p>
@@ -39,7 +43,7 @@ export function AboutMe() {
 				</div>
 
 				<div className="flex justify-center items-center w-[35%]">
-					<img src={draCamile} className="w-[70%] 2xl:w-[80%] h-auto" />
+					<img src={draCamile} className="hidden md:block w-[70%] 2xl:w-[80%] h-auto rounded-4xl" />
 				</div>
 			</div>
 		</Section>
