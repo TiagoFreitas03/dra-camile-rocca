@@ -17,7 +17,7 @@ export function Footer() {
 			<div className="w-full flex justify-center lg:justify-between px-6 mt-4">
 				<div className="hidden md:block md:w-[6%]" />
 
-				<div className="font-inter text-2xl lg:border-t-3 border-dark-red text-dark-red text-center font-semibold w-[80%] pt-4">
+				<div className="font-inter text-lg md:text-2xl lg:border-t-3 border-dark-red text-dark-red text-center font-semibold w-[80%] pt-4">
 					Dra. Camile Rocca <span className="hidden lg:inline">-</span>
 					<br className="lg:hidden" /> CROSP: 177173 &copy;{' '}
 					<span className="hidden lg:inline">| Direitos Reservados</span>
