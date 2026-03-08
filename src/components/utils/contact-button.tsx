@@ -10,7 +10,7 @@ export function ContactButton({ children, className }: ContactButtonProps) {
 		<button
 			className={
 				className +
-				' bg-dark-red text-white border border-dark-red rounded-2xl shadow-2xl duration-300 hover:bg-white hover:text-dark-red cursor-pointer'
+				' bg-dark-red text-white border border-dark-red rounded-2xl shadow-xl duration-300 hover:bg-white hover:text-dark-red cursor-pointer'
 			}
 		>
 			{children}

@@ -19,8 +19,10 @@ export function MobileMenu({ onLinkClick }: MobileMenuProps) {
 				{menuLinks.map((menuLink) => {
 					if (menuLink.visibleInMobile !== false) {
 						return (
-							<li className="py-4" key={menuLink.href} onClick={onLinkClick}>
-								<a href={menuLink.href}>{menuLink.text}</a>
+							<li key={menuLink.href} onClick={onLinkClick}>
+								<a className="block py-4" href={menuLink.href}>
+									{menuLink.text}
+								</a>
 							</li>
 						)
 					}

@@ -20,7 +20,7 @@ export function AboutMe() {
 
 						<img src={textDecoration} className="hidden lg:block w-72 m-auto" />
 
-						<div className="2xl:text-2xl font-inter flex flex-col gap-12 leading-loose">
+						<div className="pb-8 md:pb-0 2xl:text-2xl font-inter flex flex-col gap-12 leading-loose">
 							<p>
 								A <Bold>Dra. Camile Rocca</Bold> é cirurgiã-dentista formada em Odontologia pelo
 								Centro Universitário Braz Cubas, com sólida atuação em clínica geral e{' '}
