@@ -5,7 +5,7 @@ import { Tips } from './components/tips'
 import { Contact } from './components/contact'
 import { Services } from './components/services'
 import { Footer } from './components/footer'
-import { FadeIn } from './components/fade-in'
+import { FadeIn } from './components/utils/fade-in'
 
 export function App() {
 	return (
