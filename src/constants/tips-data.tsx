@@ -30,9 +30,8 @@ export const tips: Tip[] = [
 		image: floss,
 		description: (
 			<span>
-				Deve ser usado pelo menos <span className="font-bold">uma vez ao dia</span>, idealmente
-				antes da escovação noturna, para remover restos de comida entre os dentes que a escova{' '}
-				<span className="font-bold">h</span> alcança.
+				Deve ser usado pelo menos <Bold>uma vez ao dia</Bold>, idealmente antes da escovação
+				noturna, para remover restos de comida entre os dentes que a escova alcança.
 			</span>
 		),
 	},
@@ -41,8 +40,8 @@ export const tips: Tip[] = [
 		image: appointments,
 		description: (
 			<span>
-				Faça um acompanhamento regular com um <span className="font-bold">profissional</span> e
-				receba os <span className="font-bold">cuidados ideais</span> para sua saúde bucal.
+				Faça um acompanhamento regular com um <Bold>profissional</Bold> e receba os{' '}
+				<Bold>cuidados ideais</Bold> para sua saúde bucal.
 			</span>
 		),
 	},
@@ -51,9 +50,8 @@ export const tips: Tip[] = [
 		image: tongue,
 		description: (
 			<span>
-				A <span className="font-bold">saburra lingual</span> é uma das principais causas do mau
-				hálito e deve ser <span className="font-bold">removida</span> com a escova ou um raspador de
-				língua.
+				A <Bold>saburra lingual</Bold> é uma das principais causas do mau hálito e deve ser{' '}
+				<Bold>removida</Bold> com a escova ou um raspador de língua.
 			</span>
 		),
 	},
@@ -72,9 +70,8 @@ export const tips: Tip[] = [
 		image: toothpaste,
 		description: (
 			<span>
-				Use cremes dentais que contenham <span className="font-bold">flúor</span> para{' '}
-				<span className="font-bold">fortalecer</span> o esmalte dos dentes e{' '}
-				<span className="font-bold">prevenir</span> cáries.
+				Use cremes dentais que contenham <Bold>flúor</Bold> para <Bold>fortalecer</Bold> o esmalte
+				dos dentes e <Bold>prevenir</Bold> cáries.
 			</span>
 		),
 	},
