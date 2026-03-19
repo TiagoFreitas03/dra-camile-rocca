@@ -23,20 +23,13 @@ export function AboutMe() {
 						<div className="pb-8 md:pb-0 2xl:text-2xl font-inter flex flex-col gap-12 leading-loose">
 							<p>
 								A <Bold>Dra. Camile Rocca</Bold> é cirurgiã-dentista formada em Odontologia pelo
-								Centro Universitário Braz Cubas, com sólida atuação em clínica geral e{' '}
-								<Bold>foco</Bold> em um{' '}
-								<Bold> atendimento humanizado, ético e individualizado</Bold>.
-							</p>
-
-							<p>
-								Durante sua formação acadêmica, adquiriu experiência clínica por meio de estágio
-								supervisionado, atuando no atendimento de pacientes adultos e pediátricos, sempre
-								prezando pela <Bold>saúde bucal</Bold> e <Bold> bem-estar do paciente</Bold>.
+								Centro Universitário Braz Cubas, com atuação em clínica geral e <Bold>foco</Bold> em
+								um <Bold>atendimento humanizado, ético e individualizado</Bold>.
 							</p>
 
 							<p>
 								Sua prática é pautada na <Bold>atualização constante</Bold> e no{' '}
-								<Bold> cuidado</Bold> às necessidades de cada <Bold> sorriso</Bold>.
+								<Bold>cuidado</Bold> às necessidades de cada <Bold>sorriso</Bold>.
 							</p>
 						</div>
 					</div>
