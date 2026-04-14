@@ -31,7 +31,7 @@ export const tips: Tip[] = [
 		description: (
 			<span>
 				Deve ser usado pelo menos <Bold>uma vez ao dia</Bold>, idealmente antes da escovação
-				noturna, para remover restos de comida entre os dentes que a escova alcança.
+				noturna, para remover restos de comida entre os dentes em que a escova não alcança.
 			</span>
 		),
 	},
